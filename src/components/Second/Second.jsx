@@ -1,8 +1,9 @@
-// import photo from "../../assets/foto2.png";
-// import church from "../../assets/templo.webp";
-// import salon from "../../assets/arcadia.webp";
+import second from "../../assets/second.png";
 import Countdown from "../Countdown/Countdown";
 import { FaMapLocationDot } from "react-icons/fa6";
+import grecaIZQ from "../../assets/greca2.png";
+import grecaDER from "../../assets/greca3.png";
+import "./Second.css";
 
 function Second() {
   return (
@@ -10,16 +11,20 @@ function Second() {
       <>
         <div className="final-countdown">
           <h5>¡ Nos Casamos!</h5>
-          <Countdown />
           <p className="cita-countdown">
             Hoy el amor nos encontró, y decidimos no soltarnos jamás.
           </p>
         </div>
 
-        {/* <img src={photo} alt="foto acostados" /> */}
+        <img src={second} alt="foto anillo de compromiso" />
+        <Countdown />
 
         <div className="data-church">
-          <h2>Misa</h2>
+          <div className="title-section">
+            <img src={grecaIZQ} alt="adorno izquierdo" />
+            <h2>Misa</h2>
+            <img src={grecaDER} alt="adorno derecho" />
+          </div>
           <p className="title-names">Templo de los Dominicos</p>
           <p className="direction">Calle Domingo Velázquez, El Paraiso</p>
           <p className="time">1:00 pm</p>
@@ -36,8 +41,12 @@ function Second() {
 
       <>
         <div className="data-church">
-          <h2>Recepción</h2>
-          <p className="title-names">Jardin de eventos La Quinta Soledad</p>
+          <div className="title-section">
+            <img src={grecaIZQ} alt="adorno izquierdo" />
+            <h2>Recepción</h2>
+            <img src={grecaDER} alt="adorno derecho" />
+          </div>
+          <p className="title-names">La Quinta Soledad</p>
           <p className="direction">El Maguey</p>
           <p className="time">3:00 pm</p>
           {/* <img className="church" src={salon} alt="templo" /> */}
@@ -53,19 +62,25 @@ function Second() {
 
       <>
         <div className="data-church">
-          <h2>Nos Acompañan</h2>
-          <p>Nuestros padres</p>
+          <div className="title-section">
+            <img src={grecaIZQ} alt="adorno izquierdo" />
+            <h2>Nos Honran</h2>
+            <img src={grecaDER} alt="adorno derecho" />
+          </div>
+          <p className="title-parients">Nuestros padres</p>
           <div className="parients">
             <>
               <h3>Susana Ramos Pinedo</h3>
               <h3>Aarón Torres Reynoso</h3>
+              <br />
             </>
             <>
               <h3>Silvia Balandrán Ledezma</h3>
               <h3>Francisco Balderas Veloz</h3>
+              <br />
             </>
           </div>
-          <p>Padrinos de Velación</p>
+          <p className="title-parients">Padrinos de Velación</p>
           <div className="parients">
             <>
               <h3>Martha Laura Hermosillo Javier</h3>

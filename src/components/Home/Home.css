@@ -29,7 +29,8 @@
 
       .names {
         font-family: "Playfair Display", serif;
-        font-size: 2rem;
+        font-weight: 600;
+        font-size: 2.2rem;
         color: #342619;
 
         span {
