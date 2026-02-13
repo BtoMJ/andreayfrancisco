@@ -1,4 +1,4 @@
-import second from "../../assets/second.png";
+import second from "../../assets/Second.png";
 import Countdown from "../Countdown/Countdown";
 import { FaMapLocationDot } from "react-icons/fa6";
 import grecaIZQ from "../../assets/greca2.png";

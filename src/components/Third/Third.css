@@ -75,22 +75,23 @@
       text-align: center;
     }
 
-    a, .bank {
-        padding: 10px 25px;
-        border-radius: 30px;
-        font-size: 1.2rem;
-        font-family: "Playfair Display", serif;
-        font-weight: 500;
-        color: #dfb21e;
-        background-color: rgb(136, 114, 100);
-        margin: 15px 0;
+    a,
+    .bank {
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+      color: #dfb21e;
+      background-color: rgb(136, 114, 100);
+      margin: 15px 0;
 
-        .gift-icon {
-          margin-right: 10px;
-        }
-  }
+      .gift-icon {
+        margin-right: 10px;
+      }
+    }
 
-  /* .gif-container a {
+    /* .gif-container a {
     width: 90dvw;
     padding: 10px;
     text-align: center;
@@ -106,8 +107,8 @@
   .gif-container a .gift-icon {
     margin-right: 10px;
   } */
+  }
 }
-
 @media (481px <= width <= 767px) and (orientation: landscape) {
   .gif-container {
     display: flex;
