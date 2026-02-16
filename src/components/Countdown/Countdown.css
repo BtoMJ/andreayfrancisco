@@ -1,63 +1,30 @@
 @media (320px <= width <= 480px) {
   .countdown-container {
-    display: flex;
-    justify-content: center;
     gap: 1rem;
-    text-align: center;
     padding: 1rem;
     margin-top: 50px;
     margin-bottom: 10px;
 
     .number-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
       .number-bg {
         width: 60px;
         height: 60px;
-        border-radius: 100%;
-        background: linear-gradient(
-          -45deg,
-          rgba(189, 151, 125, 1) 0%,
-          rgb(52, 38, 25) 100%
-        );
 
         .number {
           font-size: 1.6rem;
-          font-family: "Marcellus", serif;
-          color: #dfb21e;
-          position: relative;
-          z-index: 3;
         }
 
         .glass {
           width: 50px;
           height: 50px;
-          display: flex;
-          align-items: center;
-          place-content: center;
-          position: relative;
           top: 5px;
           left: 5px;
-          border-radius: 100%;
-          background: linear-gradient(
-            180deg,
-            rgba(255, 255, 255, 0.35) 0%,
-            rgba(255, 255, 255, 0) 70%
-          );
-          z-index: 2;
         }
       }
     }
 
     p {
       font-size: 1.2rem;
-      color: #8f8983;
-      font-family: "Playfair Display", serif;
-      font-weight: 600;
-      text-align: center;
     }
   }
 }
@@ -192,34 +159,32 @@
 
 @media (1920px <= width <= 2660px) {
   .countdown-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
+    gap: 2.5rem;
     padding: 1rem;
+    margin-top: 50px;
     margin-bottom: 10px;
-  }
 
-  .countdown-container .number {
-    width: 80px;
-    height: 80px;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: #2f3e5f;
-    font-family: "Inter", sans-serif;
-    color: #b38d0b;
-    margin-bottom: -20px;
-    margin: 10px;
-  }
+    .number-container {
+      .number-bg {
+        width: 80px;
+        height: 80px;
 
-  .countdown-container p {
-    font-size: 1.7rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
+        .number {
+          font-size: 2.5rem;
+        }
+
+        .glass {
+          width: 70px;
+          height: 70px;
+          top: 5px;
+          left: 5px;
+        }
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -251,6 +216,56 @@
     font-size: 2.5rem;
     color: #8d8d8d;
     font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .number-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .number-bg {
+      border-radius: 100%;
+      background: linear-gradient(
+        -45deg,
+        rgba(189, 151, 125, 1) 0%,
+        rgb(52, 38, 25) 100%
+      );
+
+      .number {
+        font-family: "Marcellus", serif;
+        color: #dfb21e;
+        position: relative;
+        z-index: 3;
+      }
+
+      .glass {
+        display: flex;
+        align-items: center;
+        place-content: center;
+        position: relative;
+        border-radius: 100%;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.35) 0%,
+          rgba(255, 255, 255, 0) 70%
+        );
+        z-index: 2;
+      }
+    }
+  }
+
+  p {
+    color: #8f8983;
+    font-family: "Playfair Display", serif;
     font-weight: 600;
     text-align: center;
   }

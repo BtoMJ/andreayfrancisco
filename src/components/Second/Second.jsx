@@ -28,7 +28,6 @@ function Second() {
           <p className="title-names">Templo de los Dominicos</p>
           <p className="direction">Calle Domingo Velázquez, El Paraiso</p>
           <p className="time">1:00 pm</p>
-          {/* <img className="church" src={church} alt="templo" /> */}
           <a
             href="https://www.google.com/maps/place/Templo+De+Los+Dominicos+Fraccionamiento+El+Paraiso/@21.0315868,-101.8542976,17z/data=!3m1!4b1!4m6!3m5!1s0x842be85155555555:0xf3eb181c8c6b7a3e!8m2!3d21.0315818!4d-101.8517227!16s%2Fg%2F11cmhwfygw?entry=ttu&g_ep=EgoyMDI2MDIwOS4wIKXMDSoASAFQAw%3D%3D"
             target="_blanck"

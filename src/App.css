@@ -20,8 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  /* background-image: url("./assets/bg2.png"); */
-  background-repeat: repeat;
 }
 
 a {
@@ -29,15 +27,73 @@ a {
   cursor: pointer;
 }
 
+@media (320px <= width <= 480px) {
+  .container {
+    .info {
+      width: 100dvw;
+      height: 100dvh;
+      background-color: #fff;
+    }
+  }
+}
+
+@media (481px <= width <= 767px) {
+  .container .info {
+    width: 100dvw;
+    height: 100dvh;
+    /* box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5); */
+  }
+}
+
+@media (768px <= width <= 1023px) {
+  .container .info {
+    width: 100dvw;
+    /* box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5); */
+  }
+}
+
+@media (1024px <= width <= 1199px) {
+  .container .info {
+    width: 100dvw;
+    box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+  }
+}
+
+@media (1200px <= width <= 1919px) {
+  .container .info {
+    width: 100dvw;
+    box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+    background-color: #fff;
+  }
+}
+
+@media (1920px <= width <= 2600px) {
+  body {
+    background-image: url("./assets/paper2.png");
+    background-repeat: repeat;
+  }
+
+  .container {
+    .info {
+      width: 30dvw;
+      background-color: #fff;
+      box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+    }
+  }
+}
+
+@media (2661px <= width) {
+  .container .info {
+    width: 50dvw;
+    box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+  }
+}
+
 .container {
-  width: 100dvw;
-  height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url("./assets/paper2.png");
-  background-repeat: repeat;
   -ms-overflow-style: none; /*IE and Edge*/
   scrollbar-width: none; /* Firefox */
 }
@@ -45,29 +101,3 @@ a {
 .container::-webkit-scrollbar {
   display: none;
 }
-
-@media (320px <= width <= 480px) {
-  .container .info {
-    width: 100dvw;
-    height: 100dvh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 50px;
-    /* box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5); */
-    /* background-image: url("./assets/paper5.avif"); */
-  }
-}
-
-/* .container .info {
-  width: 30dvw;
-  height: 100dvh;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
-} */
