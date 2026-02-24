@@ -33,6 +33,34 @@
 }
 
 @media (768px <= width <= 1023px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 500px;
+      margin: 50px 0 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2rem;
+    }
+  }
 }
 
 @media (1024px <= width <= 1199px) {

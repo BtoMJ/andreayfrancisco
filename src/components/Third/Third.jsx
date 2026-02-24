@@ -26,7 +26,6 @@ function Third() {
 
       <div className="title-section">
         <img src={grecaIZQ} alt="adorno izquierdo" />
-        {/* <h2>Mesa de Regalos</h2> */}
         <h2>Regalos</h2>
         <img src={grecaDER} alt="adorno derecho" />
       </div>

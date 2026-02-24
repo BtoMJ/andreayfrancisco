@@ -110,13 +110,13 @@
 
 @media (768px <= width <= 1023px) {
   .home-container {
-    width: 100dvw;
+    width: 100%;
     height: 100dvh;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 
     .home-photo {
       width: 100%;
@@ -135,12 +135,12 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      margin-top: -12vh;
+      margin-top: -8vh;
 
       .names {
         font-family: "Playfair Display", serif;
         font-weight: 600;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         color: #342619;
 
         span {
@@ -150,14 +150,13 @@
 
       .date-names {
         font-family: "Playfair Display", serif;
-        font-size: 1.5rem;
-        margin-top: -10px;
+        font-size: 2rem;
         color: #342619;
       }
 
       img {
-        width: 65%;
-        margin-top: -8px;
+        width: 75%;
+        margin-top: 2px;
       }
     }
   }
