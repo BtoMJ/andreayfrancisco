@@ -167,89 +167,103 @@
 
 @media (1024px <= width <= 1199px) {
   .gif-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 50px;
-  }
 
-  .gif-container h2 {
-    font-size: 3.5rem;
-    color: #b38d0b;
-    font-family: "The Nautigal", cursive;
-    font-weight: bold;
-    margin-bottom: -15px;
-  }
+    .dress-code {
+      .title-section {
+        img {
+          width: 20%;
+          margin-bottom: -20px;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
 
-  .gif-container p {
-    width: 90%;
-    font-size: 1.5rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
+      h4 {
+        font-size: 2.5rem;
+      }
 
-  .gif-container a {
-    width: 60dvw;
-    padding: 10px;
-    text-align: center;
-    background-color: #2f3e5f;
-    color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-  }
+      .dress-description {
+        width: 80%;
+        font-size: 1.7rem;
+      }
+    }
 
-  .gif-container a .gift-icon {
-    margin-right: 10px;
+    .title-section {
+      img {
+        width: 20%;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        margin: 30px 0;
+      }
+    }
+
+    .gift-text {
+      width: 80%;
+      font-size: 1.7rem;
+    }
+
+    a,
+    .bank {
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 1.7rem;
+      margin: 30px 0;
+    }
   }
 }
 
 @media (1200px <= width <= 1919px) {
   .gif-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 50px;
-  }
 
-  .gif-container h2 {
-    font-size: 3.5rem;
-    color: #b38d0b;
-    font-family: "The Nautigal", cursive;
-    font-weight: bold;
-    margin-bottom: -15px;
-  }
+    .dress-code {
+      .title-section {
+        img {
+          width: 20%;
+          margin-bottom: -20px;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+      }
 
-  .gif-container p {
-    width: 90%;
-    font-size: 1.3rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
+      h4 {
+        font-size: 2rem;
+      }
 
-  .gif-container a {
-    width: 35dvw;
-    padding: 10px;
-    text-align: center;
-    background-color: #2f3e5f;
-    color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-  }
+      .dress-description {
+        width: 80%;
+        font-size: 1.2rem;
+      }
+    }
 
-  .gif-container a .gift-icon {
-    margin-right: 10px;
+    .title-section {
+      img {
+        width: 20%;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin: 30px 0;
+      }
+    }
+
+    .gift-text {
+      width: 80%;
+      font-size: 1.2rem;
+    }
+
+    a,
+    .bank {
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      margin: 30px 0;
+    }
   }
 }
 

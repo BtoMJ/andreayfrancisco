@@ -19,6 +19,13 @@
           height: 50px;
         }
       }
+
+      .title {
+        p {
+          font-size: 1rem;
+          margin-top: 5px;
+        }
+      }
     }
 
     p {
@@ -79,6 +86,13 @@
           height: 60px;
         }
       }
+
+      .title {
+        p {
+          font-size: 1.3rem;
+          margin-top: -5px;
+        }
+      }
     }
 
     p {
@@ -89,65 +103,71 @@
 
 @media (1024px <= width <= 1199px) {
   .countdown-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
-    padding: 1rem;
-    margin-bottom: 10px;
-  }
+    .number-container {
+      gap: 1rem;
+      padding: 1rem;
+      margin-top: -10px;
+      margin-bottom: 10px;
 
-  .countdown-container .number {
-    width: 80px;
-    height: 80px;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: #2f3e5f;
-    font-family: "Inter", sans-serif;
-    color: #b38d0b;
-    margin-bottom: -20px;
-  }
+      .number-bg {
+        width: 80px;
+        height: 80px;
+        .number {
+          z-index: 3;
+        }
 
-  .countdown-container p {
-    font-size: 1.7rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
+        .glass {
+          width: 70px;
+          height: 70px;
+        }
+      }
+
+      .title {
+        p {
+          font-size: 1.3rem;
+          margin-top: -5px;
+        }
+      }
+    }
+
+    p {
+      font-size: 2rem;
+    }
   }
 }
 
 @media (1200px <= width <= 1919px) {
   .countdown-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
-    padding: 1rem;
-    margin-bottom: 10px;
-  }
+    .number-container {
+      gap: 1rem;
+      padding: 0.7rem;
+      margin-top: 55px;
+      margin-bottom: 10px;
 
-  .countdown-container .number {
-    width: 70px;
-    height: 70px;
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: #2f3e5f;
-    font-family: "Inter", sans-serif;
-    color: #b38d0b;
-    margin-bottom: -20px;
-  }
+      .number-bg {
+        width: 60px;
+        height: 60px;
+        .number {
+          z-index: 3;
+        }
 
-  .countdown-container p {
-    font-size: 1.7rem;
-    color: #8d8d8d;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-align: center;
+        .glass {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .title {
+        p {
+          font-size: 1.2rem;
+          margin-top: -5px;
+        }
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -172,6 +192,13 @@
           height: 70px;
           top: 5px;
           left: 5px;
+        }
+      }
+
+      .title {
+        p {
+          font-size: 1.4rem;
+          margin-top: 5px;
         }
       }
     }

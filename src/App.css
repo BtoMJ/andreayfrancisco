@@ -61,17 +61,38 @@ a {
 }
 
 @media (1024px <= width <= 1199px) {
-  .container .info {
+  body {
+    background-image: url("./assets/paper2.png");
+    background-repeat: repeat;
+  }
+
+  .container {
     width: 100dvw;
-    box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+    height: 100dvh;
+
+    .info {
+      width: 65%;
+      background-color: #fff;
+      box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+    }
   }
 }
 
 @media (1200px <= width <= 1919px) {
-  .container .info {
+  body {
+    background-image: url("./assets/paper2.png");
+    background-repeat: repeat;
+  }
+
+  .container {
     width: 100dvw;
-    box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
-    background-color: #fff;
+    height: 100dvh;
+
+    .info {
+      width: 30%;
+      background-color: #fff;
+      box-shadow: 0px 0px 70px rgba(128, 111, 111, 0.5);
+    }
   }
 }
 
@@ -106,9 +127,9 @@ a {
   .info {
     height: 100dvh;
     overflow-y: scroll;
-    background-color: #fff;
     -ms-overflow-style: none; /*IE and Edge*/
     scrollbar-width: none; /* Firefox */
+    background-color: #fff;
   }
 }
 

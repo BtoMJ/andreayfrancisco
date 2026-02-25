@@ -64,9 +64,65 @@
 }
 
 @media (1024px <= width <= 1199px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 700px;
+      margin: 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.7rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2.5rem;
+    }
+  }
 }
 
 @media (1200px <= width <= 1919px) {
+  .carrusel-container {
+    width: 90%;
+
+    .carousel-fade {
+      width: 90%;
+      min-height: 500px;
+      margin: 20px 0;
+
+      .slide-container-1,
+      .slide-container-2,
+      .slide-container-3,
+      .slide-container-4 {
+        width: 90%;
+        height: 700px;
+      }
+    }
+
+    .cita {
+      width: 80%;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .end-title {
+      width: 90%;
+      font-size: 2rem;
+    }
+  }
 }
 
 @media (1920px <= width <= 2660px) {
@@ -158,12 +214,6 @@
   background-position: top 25% center;
   background-repeat: no-repeat;
 }
-
-/* .slide-container-5 {
-  background-image: url("../../assets/slider/5.png");
-  background-position: top 25% center;
-  background-repeat: no-repeat;
-} */
 
 .carousel-fade {
   position: relative;
