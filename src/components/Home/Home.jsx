@@ -12,7 +12,7 @@ function Home() {
         <p className="names">
           Andrea <span>&</span> Francisco
         </p>
-        <p className="date-names">02 Mayo 2026</p>
+        <p className="date-names">02 Mayo 2027</p>
         <img src={greca} alt="adorno de la portada" />
       </div>
     </div>
